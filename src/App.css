@@ -108,9 +108,15 @@ padding-top:50px;
   display: block;
   border:1px solid;
   border-radius: 12px;
-  height:90vh;
+  height:50vh;
   width:97vw;
   text-align: center;
+  overflow-wrap: break-word;
+}
+
+.coursesblock>div{
+  display: inline-block;
+  padding:20px;
 }
 .conheading{
   margin:10px;
